@@ -1,0 +1,27 @@
+ion-card-subtitle {
+    font-weight: bold;
+    font-size: larger;
+    color: #4d4b4b;
+  }
+
+  ion-label {
+    font-weight: bold;
+  }
+
+  .tech-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .habilidad-card {
+    margin-bottom: 15px;
+  }
+
+  .habilidad-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    max-height: 500px; 
+  }

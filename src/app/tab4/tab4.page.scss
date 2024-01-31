@@ -1,0 +1,37 @@
+.imagen {
+    width: 100px; 
+    height: auto; 
+  }
+
+/* Agrega este bloque de estilos a tu hoja de estilos global o componente */
+
+/* Estilo general para los ion-card dentro de la sección de habilidades */
+/* Agrega este bloque de estilos a tu hoja de estilos global o componente */
+
+/* Estilo general para los ion-card dentro de la sección de habilidades */
+.habilidad-card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Ajusta la altura máxima y anchura según tus preferencias */
+  ion-card {
+    max-height: 400px; /* Ajusta este valor según tus necesidades */
+  }
+  
+  /* Estilo para la imagen dentro de los ion-card */
+  .imagen {
+    max-width: 100%; /* La imagen no ocupará más del 100% del ancho del contenedor */
+    height: auto; /* Mantiene la proporción original de la imagen */
+  }
+  
+  /* Estilo para el contenido dentro de los ion-card */
+  ion-card-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  

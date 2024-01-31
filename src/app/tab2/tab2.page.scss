@@ -1,0 +1,64 @@
+ion-header {
+  ion-toolbar {
+    --background: #8f0612;
+    --color: #fff;
+
+    ion-title {
+      font-size: 1.8rem;
+    }
+  }
+}
+
+ion-content {
+  ion-row {
+    ion-col {
+      h2.section-title {
+        font-weight: bold;
+        font-size: 1.8rem;
+        color: #3498db;
+        margin-bottom: 15px;
+      }
+    }
+  }
+
+  ion-row {
+    ion-col {
+      ion-card {
+        background-color: #f8f8f8;
+        border: 1px solid #ddd;
+        border-radius: 12px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        
+        p {
+          color: #555;
+          font-size: 1rem;
+        }
+      }
+
+      ion-card.champion-card {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 12px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+        transition: transform 0.3s ease-in-out;
+
+        &:hover {
+          transform: scale(1.05);
+        }
+
+        h3 {
+          color: #FF4081;
+          font-size: 1.5rem;
+          margin-bottom: 10px;
+        }
+
+        p {
+          color: #555;
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+}

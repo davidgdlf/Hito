@@ -1,0 +1,45 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title class="ion-text-center">
+      Bienvenidos a la web del barsa
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <div class="presentation">
+    <h2>Visca Barsa</h2>
+    <p class="ion-text-center">Esta es una web sobre el futbol club barcelona, vamos a pasar por las champions, las mejores goleadas a su máximo rival y por jugadores míticos</p>
+
+    <div class="team-members">
+      <ion-card (click)="goToTab('tab2')">
+        <ion-img class="team-member-img" src="assets/image_content_general_6727889_20140304145814.jpg"></ion-img>
+        <ion-card-header>
+          <ion-card-subtitle>Champions</ion-card-subtitle>
+        </ion-card-header>
+      </ion-card>
+
+      <ion-card (click)="goToTab('tab3')">
+        <ion-img class="team-member-img" src="assets/cruyff.jpg"></ion-img>
+        <ion-card-header>
+          <ion-card-subtitle>Cruyff</ion-card-subtitle>
+        </ion-card-header>
+      </ion-card>
+
+      <ion-card (click)="goToTab('tab4')">
+        <ion-img class="team-member-img" src="assets/messi.jpg"></ion-img>
+        <ion-card-header>
+          <ion-card-subtitle>Messi</ion-card-subtitle>
+        </ion-card-header>
+      </ion-card>
+
+      <ion-card (click)="goToTab('tab5')">
+        <ion-img class="team-member-img" src="assets/60e752d51493b.jpeg"></ion-img>
+        <ion-card-header>
+          <ion-card-subtitle>Goleadas Barsa</ion-card-subtitle>
+        </ion-card-header>
+      </ion-card>
+    </div>
+  </div>
+</ion-content>
+
